@@ -20,7 +20,7 @@ GNU Smalltalk JSON Encoder/Decoder Implementation
 
 ## Library Pollution
 
-### Encode
+### Decode
 
 ```st
 OrderedCollection#removeLast:
@@ -30,7 +30,7 @@ ReadStream#nextJSONEscapedCharacterToken
 ReadStream#nextJSONStringToken
 ```
 
-### Decode
+### Encode
 
 ```st
 Boolean#printJSONOn:
